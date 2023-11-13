@@ -1,0 +1,175 @@
+{
+	"info": {
+		"_postman_id": "9e40c4b1-8aee-47a9-ac07-54114358facb",
+		"name": "ZARA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31087876"
+	},
+	"item": [
+		{
+			"name": "api",
+			"item": [
+				{
+					"name": "prices",
+					"item": [
+						{
+							"name": "Prices - Test (1)",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"date\": \"14-06-2020 10:00:00\",\r\n    \"productId\": 35455,\r\n    \"brandId\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/api/prices",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"prices"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Prices - Test (2)",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"date\": \"14-06-2020 16:00:00\",\r\n    \"productId\": 35455,\r\n    \"brandId\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/api/prices",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"prices"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Prices - Test (3)",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"date\": \"14-06-2020 21:00:00\",\r\n    \"productId\": 35455,\r\n    \"brandId\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/api/prices",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"prices"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Prices - Test (4)",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"date\": \"15-06-2020 10:00:00\",\r\n    \"productId\": 35455,\r\n    \"brandId\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/api/prices",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"prices"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Prices - Test (5)",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"date\": \"16-06-2020 21:00:00\",\r\n    \"productId\": 35455,\r\n    \"brandId\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/api/prices",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"prices"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
